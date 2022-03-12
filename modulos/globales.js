@@ -1,15 +1,20 @@
-let i = 0;
-let intervalo = setInterval(function() {
-    console.log('Hola Santo el Aspero');
-    if (i === 3) {
-        clearInterval(intervalo);
-    }
-    i++;
-}, 2000);
+// Ubicación de ficheros
+// console.log(__dirname);
+// console.log(__filename);
 
-setImmediate(function() {
-    console.log('Perrito');
-});
+// Timers
+// console.log(setInterval);)
+// console.log(clearInterval);
+// console.log(setTimeout);
+// console.log(clearTimeout);
+// console.log(setInmediate);
 
-console.log(__dirname);
-console.log(__filename);
+// Modules
+// console.log(exports);
+// console.log(module);
+// console.log(require);
+
+// Seteando variables globales
+// global.test = 'Ejemplo';
+// console.log(test);
+// console.log(global.test);
